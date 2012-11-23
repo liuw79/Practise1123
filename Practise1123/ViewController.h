@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *label;
+
+-(void) IBAction sliderMoved:(id) sender;
+
 @end
